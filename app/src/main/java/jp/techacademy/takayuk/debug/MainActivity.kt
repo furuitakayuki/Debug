@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
             Log.d("ANDROID", "list[$i]=${list[i]}")
         }
 
-        textView.text = list[1]
+        //textView.text = list[1]を
+        textView.text = list[1]     //←に変える
     }
 }
